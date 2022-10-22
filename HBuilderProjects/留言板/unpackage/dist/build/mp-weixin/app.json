@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "message",
+    "navigationBarBackgroundColor": "#f9f4dc",
+    "backgroundColor": "#FFF9F3"
+  },
+  "usingComponents": {}
+}

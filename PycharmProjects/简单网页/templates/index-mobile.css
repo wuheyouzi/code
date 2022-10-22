@@ -1,0 +1,29 @@
+@media (max-width: 900px)
+{
+    text {
+        letter-spacing: 1px;
+    }
+
+    p {
+        font-weight: 700;
+    }
+
+    .header {
+        font-size: 68px;
+        height: 200px;
+    }
+
+    .main-content {
+        min-height: 75vh;
+        font-size: 75px;
+    }
+
+    .bottom-content {
+        height: 245px;
+        font-size: 43px;
+    }
+    
+    .font-size-small {
+        font-size: 38px;
+    }
+}

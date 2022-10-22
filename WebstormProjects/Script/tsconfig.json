@@ -1,0 +1,21 @@
+{
+  "include": ["./src/**/*"],
+  //"exclude": []
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    //"lib": []
+    "outDir": "./dist",
+    //"outfile": ""
+    "strict": true,
+    "allowJs": true,
+    "checkJs": true,
+    "removeComments": true,
+    "noEmit": false,
+    "noEmitOnError": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+  }
+}
+

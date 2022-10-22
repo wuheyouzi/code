@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/stars/stars",
+    "pages/ucenter/ucenter",
+    "pages/ucenter/login/login",
+    "pages/stars/article/article",
+    "pages/ucenter/messageBoard/messageBoard",
+    "pages/ucenter/account/account",
+    "pages/ucenter/about/about"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/stars/stars",
+        "iconPath": "static/tabbar/star.png",
+        "selectedIconPath": "static/tabbar/star.png",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/ucenter/ucenter",
+        "iconPath": "static/tabbar/personal.png",
+        "selectedIconPath": "static/tabbar/personal.png",
+        "text": "星境"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

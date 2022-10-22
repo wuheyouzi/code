@@ -1,0 +1,7 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "梦-星海",
+  "navigationBarBackgroundColor": "#eee",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

@@ -1,0 +1,1 @@
+"use strict";var e=require("../../../common/vendor.js");const t={data:()=>({articleHtml:null}),methods:{}};if(!Array){e.resolveComponent("uni-easyinput")()}Math;var r=e._export_sfc(t,[["render",function(t,r,a,l,n,o){return{a:e.o((e=>n.articleHtml=e)),b:e.p({type:"textarea",maxlength:"-1",autoHeight:!0,modelValue:n.articleHtml}),c:n.articleHtml}}]]);wx.createPage(r);

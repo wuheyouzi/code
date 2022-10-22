@@ -1,0 +1,1 @@
+<view><view class="flex my-45 justify-center" bindtap="{{b}}"><text>{{a}}</text></view><view wx:for="{{c}}" wx:for-item="item" wx:key="d" bindtap="{{item.e}}"><view class="flex items-center stars flex-row scroll-smooth"><view class="flex flex-col my-45"><text>{{item.a}}</text><text>{{item.b}}</text></view><text class="writer">{{item.c}}</text></view></view></view>

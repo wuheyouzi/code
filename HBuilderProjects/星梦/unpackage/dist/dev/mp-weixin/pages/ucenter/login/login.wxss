@@ -1,0 +1,15 @@
+
+.inputArea {
+    margin: 0 30rpx;
+}
+.input {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10rpx;
+    margin: 39rpx;
+}
+.rounded {
+    border-radius: 10px;
+}
+.w-40 {
+    width: 10rem
+}

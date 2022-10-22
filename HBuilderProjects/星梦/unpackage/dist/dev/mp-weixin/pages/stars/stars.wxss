@@ -1,0 +1,19 @@
+
+.my-45 {
+    /* y轴上下45rpx外边距 */
+    margin-top: 45rpx;
+    margin-bottom: 45rpx;
+}
+.stars {
+    border-bottom: 1px solid #ccc;
+    padding: 20rpx;
+    border-radius: 20px;
+    line-height: 1.5;
+    min-height: 150rpx;
+    background-color: beige;
+}
+.writer {
+    padding: 50rpx;
+    font-size: 14px;
+    color: #999999;
+}

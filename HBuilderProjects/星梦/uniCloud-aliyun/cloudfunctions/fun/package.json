@@ -1,0 +1,13 @@
+{
+  "name": "fun",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "fs": "^0.0.1-security",
+    "getTime": "file:../common/time",
+    "jsonwebtoken": "^8.5.1",
+    "time": "file:../common/time"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

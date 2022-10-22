@@ -1,0 +1,82 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/starList/starList",
+      "style": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "梦-星海",
+        "navigationBarBackgroundColor": "#eee",
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "pages/ucenter/ucenter",
+      "style": {
+        "navigationBarTitleText": "梦-星境",
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#eee",
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "pages/ucenter/login/login",
+      "style": {
+        "navigationBarTitleText": "梦-入境",
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#eee",
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "pages/starList/star/star",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "pages/ucenter/messageBoard/messageBoard",
+      "style": {
+        "navigationBarTitleText": "留言板",
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "pages/ucenter/account/account",
+      "style": {
+        "navigationBarTitleText": "用户信息",
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "pages/ucenter/about/about",
+      "style": {
+        "navigationBarTitleText": "关于星梦",
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "pages/ucenter/creation/creation",
+      "style": {
+        "navigationBarTitleText": "铸星",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [{
+        "pagePath": "pages/starList/starList",
+        "iconPath": "static/tabbar/star.png",
+        "selectedIconPath": "static/tabbar/star.png",
+        "text": "星境"
+      },
+      {
+        "pagePath": "pages/ucenter/ucenter",
+        "iconPath": "static/tabbar/personal.png",
+        "selectedIconPath": "static/tabbar/personal.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

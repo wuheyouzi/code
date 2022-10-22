@@ -1,0 +1,24 @@
+@media (max-width: 800px)
+{
+    text {
+        letter-spacing: 0.5px;
+    }
+    
+    .header {
+        font-size: 30px;
+    }
+
+    .bottom {
+        font-size: 30px;
+        letter-spacing: 2px;
+        padding: 15px;
+    }
+
+    .bottom-content-font-size-small {
+        font-size: 23px;
+    }
+
+    .bottom-content-font-size-large {
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,1 @@
+<view><view class="flex justify-center items-center" style="margin:60rpx 0">请在下方输入框中写html</view><uni-easyinput wx:if="{{b}}" u-i="54b0758e-0" bind:__l="__l" bindupdateModelValue="{{a}}" u-p="{{b}}"></uni-easyinput><view class="flex justify-center items-center" style="margin:50rpx 0">效果展示</view><view><rich-text nodes="{{c}}"/></view></view>

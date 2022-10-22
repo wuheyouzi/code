@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<link rel="stylesheet" href="index.css" type="text/css" />
+<link rel="stylesheet" href="index-mobile.css" type="text/css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="VIP视频解析">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="robots" content="all">
+
+    <link rel="manifest" href="/VIP_video/manifest.json">
+    <link rel="icon" href="/VIP_video/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/VIP_video/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/VIP_video/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/VIP_video/icons/favicon-16x16.png" />
+    <meta name="msapplication-TileColor" content="#fff9f3" />
+    <meta name="theme-color" content="#fff9f3" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="apple-mobile-web-app-title" content="VIP视频解析" />
+    <title>VIP视频解析</title>
+</head>
+<body>
+    <div class="box">
+        <input placeholder="请输入VIP视频网址" id="shuRuKuang" />
+        <span id="anNiu" onclick="change('https://jx.ppflv.com/?url=')" style="margin-left: 0px; margin-right: 10px;">线路1</span>
+        <span id="anNiu" onclick="change('https://jx.quanmingjiexi.com/?url=')" style="margin-left: -10px; margin-right: 0px;">线路2</span>
+    </div>
+    <script>
+        function change(url_front) {
+            let anNiu = document.getElementById("anNiu");
+            let shuRuKuang = document.getElementById("shuRuKuang");
+            window.location.href=url_front + shuRuKuang.value;
+            shuRuKuang.value = "";
+        }
+    </script>
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function () {
+            navigator.serviceWorker.register("sw.js");
+        });
+    }
+    </script>
+</body>
+</html>
